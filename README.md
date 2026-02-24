@@ -31,7 +31,7 @@ numpy==1.24.0
 
 2. Запуск терминала
 
- # 1. Создайте папку проекта
+# 1. Создайте папку проекта
 mkdir neuroflow_terminal
 cd neuroflow_terminal
 
