@@ -1,0 +1,4 @@
+prompt_toolkit==3.0.43
+pygments==2.17.0
+torch>=2.1.0
+numpy>=1.24.0
