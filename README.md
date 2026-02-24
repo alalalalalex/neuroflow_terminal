@@ -5,14 +5,22 @@
 Структура проекта
 
 neuroflow_terminal/
-├── repl.py                    # Главный файл REPL
+
+├── repl.py         # Главный файл REP
+
 ├── lexer.py                   # Лексический анализатор
+
 ├── parser.py                  # Синтаксический анализатор
+
 ├── interpreter.py             # Интерпретатор кода
+
 ├── visualizer.py              # ASCII визуализация
+
 ├── completer.py               # Автодополнение
+
 ├── history.py                 # История команд
 └── requirements.txt
+
 1. requirements.txt
 requirements.txt
 
