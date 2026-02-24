@@ -46,13 +46,17 @@ python repl.py
 8. Пример сессии
 
 ╔══════════════════════════════════════════════════════════════╗
+
 ║           🧠 NeuroFlow Interactive Terminal v1.0             ║
+
 ╚══════════════════════════════════════════════════════════════╝
 
 neuroflow> input image [28, 28]
+
 ✅ Code executed successfully
 
 neuroflow> input label [10]
+
 ✅ Code executed successfully
 
 neuroflow> model MyNet {
@@ -60,18 +64,29 @@ neuroflow> model MyNet {
 ...     h1 = dense(x, 128) -> relu
 ...     out = dense(h1, 10) -> softmax
 ... }
+
 ✅ Model 'MyNet' defined with 3 layers
 
 ╔══════════════════════════════════════════════════════════════╗
+
 ║  Model: MyNet                                                ║
+
 ║  INPUTS:                                                     ║
+
 ║    📥 image               [28, 28]                           ║
+
 ║    📥 label               [10]                               ║
+
 ║  LAYERS:                                                     ║
+
 ║    1. 📏 flatten          [flatten]                          ║
+
 ║    2. 🔵 h1               [dense]                            ║
+
 ║    3. 🔵 out              [dense]                            ║
+
 ║  TOTAL PARAMETERS: 101,642                                   ║
+
 ╚══════════════════════════════════════════════════════════════╝
 
 neuroflow> /layers
@@ -84,20 +99,31 @@ neuroflow> /layers
 ============================================================
 
 neuroflow> /save my_model.nf
+
 ✅ Session saved to my_model.nf
 
 neuroflow> /exit
+
 👋 Goodbye!
 
 9. Возможности терминала
 
   Фича	Описание
+  
 **Подсветка синтаксиса**	Цветные ключевые слова, функции, числа
+
 **Автодополнение**	Tab-комплит для команд и функций
+
 **История команд**	↑/↓ для навигации по истории
+
 **Multi-line режим**	Блоки кода с автоматическим продолжением
+
 **ASCII визуализация**	Мгновенный просмотр архитектуры
+
 **Специальные команды**	/help, /model, /save, /load, etc.
+
 **Сохранение сессий**	Экспорт/импорт кода в .nf файлы
+
 **Статистика слоёв**	Подсчёт параметров и размеров
+
 
